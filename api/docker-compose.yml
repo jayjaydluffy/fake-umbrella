@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  api:
+    build: .
+    command: bash -c "cd fakeumbrella && python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    container_name: fake_umbrella_api
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/fake-umbrella
+
+networks:
+  default:
+    external:
+      name: zed

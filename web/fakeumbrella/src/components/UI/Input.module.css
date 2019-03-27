@@ -1,0 +1,23 @@
+.InputGroup button {
+	border-color: #ced4da;
+}
+
+.InputGroup button:hover {
+	border-color: #ced4da;
+	color: inherit;
+	background: transparent;
+}
+
+.InvalidAppendBtn {
+	border-color: #E74C3C !important;
+}
+
+.Label3 {
+	line-height: 1;
+	font-size: 14px;
+}
+
+.Label4 {
+	margin-left: auto;
+	font-weight: 700;
+}
