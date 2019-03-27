@@ -22,7 +22,7 @@ class App extends Component {
                   <Logo/>
               </NavBar.Brand>
             </Link>
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Item>
                 <Link to="/raining" className="nav-link">Where is it Raining?</Link>
               </Nav.Item>
